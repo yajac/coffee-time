@@ -41,7 +41,7 @@
        console.log(iotValues[1]);
 
        var singleDate = new Date(iotValues[0].timestamp);
-       var doubleDate = new Date(iotValues[0].timestamp);
+       var doubleDate = new Date(iotValues[1].timestamp);
 
        const singleTimeElement = singleDate.toLocaleTimeString('en-US', { timeZone: 'America/New_York' });
        const doubleTimeElement = doubleDate.toLocaleTimeString('en-US', { timeZone: 'America/New_York' });
