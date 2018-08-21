@@ -1,11 +1,13 @@
 .container{
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 .card{
   color: white;
   background-color: #00a376;
-  padding: 4em;
-  margin: 1em;
+  padding: 2em;
+  margin: .2em;
   border-radius: 50%;
   text-align: center;
 }
